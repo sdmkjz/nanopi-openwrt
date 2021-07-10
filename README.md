@@ -9,7 +9,7 @@
 [1分钟生成自己所需固件](#1分钟生成自己所需固件)  
 
 ### 下载地址：
-https://github.com/klever1988/nanopi-openwrt/releases  
+https://github.com/sdmkjz/nanopi-openwrt/releases  
 (img.gz档不需要解压，可以直接使用刷机工具刷入)
 
 ### 使用提示：
@@ -19,11 +19,16 @@ https://github.com/klever1988/nanopi-openwrt/releases
 
 ### 终端内在线升级方法：
 ```bash
-wget -qO- https://github.com/klever1988/nanopi-openwrt/raw/master/scripts/autoupdate.sh | sh
+wget -qO- https://github.com/sdmkjz/nanopi-openwrt/raw/master/scripts/autoupdate.sh | sh
+```
+docker版
+```bash
+wget -qO- https://github.com/sdmkjz/nanopi-openwrt/raw/master/scripts/autoupdate.sh | sh -with-docker
+或下载 https://github.com/sdmkjz/nanopi-openwrt/raw/master/scripts/autoupdate-docker-sdmkjz.sh 运行即可
 ```
 slim版
 ```bash
-wget -qO- https://github.com/klever1988/nanopi-openwrt/raw/master/scripts/autoupdate.sh | ver=-slim sh
+wget -qO- https://github.com/sdmkjz/nanopi-openwrt/raw/master/scripts/autoupdate.sh | ver=-slim sh
 ```
 (脚本由gary lau提供，非常感谢！)
 
