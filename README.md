@@ -23,8 +23,9 @@ wget -qO- https://github.com/sdmkjz/nanopi-openwrt/raw/master/scripts/autoupdate
 ```
 docker版
 ```bash
-wget -qO- https://github.com/sdmkjz/nanopi-openwrt/raw/master/scripts/autoupdate.sh | sh ver=-with-docker
-或下载 https://github.com/sdmkjz/nanopi-openwrt/raw/master/scripts/autoupdate-docker-sdmkjz.sh 运行即可
+wget https://github.com/sdmkjz/nanopi-openwrt/raw/master/scripts/autoupdate-docker-sdmkjz.sh
+chmod +x ./autoupdate-docker-sdmkjz.sh
+./autoupdate-docker-sdmkjz.sh
 ```
 slim版
 ```bash
