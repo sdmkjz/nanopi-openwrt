@@ -42,7 +42,6 @@ wget -qO- https://github.com/sdmkjz/nanopi-openwrt/raw/master/scripts/autoupdate
 
 ### 更新说明：
 R2S:去除 tencentddns，ddnsto，Frpc，mentohust认证
-    增加 wolplus网络唤醒
 
 #### 本固件NAT基准性能测试：
 <img src="https://raw.githubusercontent.com/klever1988/nanopi-openwrt/master/assets/NAT.jpg" width="450" />
