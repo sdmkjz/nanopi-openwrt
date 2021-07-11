@@ -48,7 +48,7 @@ wget -qO- https://github.com/sdmkjz/nanopi-openwrt/raw/master/scripts/autoupdate
 再点击Run即可获取自己所需的固件
 
 ### 更新说明：
-https://github.com/klever1988/nanopi-openwrt/blob/master/CHANGELOG.md
+R2S:去除 tencentddns，ddnsto
 
 #### 本固件NAT基准性能测试：
 <img src="https://raw.githubusercontent.com/klever1988/nanopi-openwrt/master/assets/NAT.jpg" width="450" />
